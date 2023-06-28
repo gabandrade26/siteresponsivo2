@@ -80,41 +80,33 @@ nav ul li a:hover {
 }
 
 section {
-    width: 700px;
-    float: right;
-}
-
-article#texto {
-    width: 380px;
-    float: left;
-}
-
-article#artigo-interno {
     width: 100%;
-    float: left:
+}
+
+/* quando tem espaço quer dizer que cada item está dentro do outro, quando tem vírgula quer dizer que vai atacar coisas separadas */
+article#texto, article#artigo-interno {
+    width: 100%;
 }
 
 aside#imagens {
-    width: 300px;
-    float: right;
+    width: 100%;
 }
 
-.imagens {
-    width: 300px;
+.imagem {
+    width: 70%;
 }
 
 .video {
-    width: 560px;
-    height: 315px;
+    width: 784px;
+    height: 441px;
 }
 
 .mapa {
-    width: 700px;
-    height: 450px;
+    width: 800px;
+    height: 1000px;
 }
 
 footer {
-    clear: both; /* limpa o efeito dos floats anteriores */
     width: 100%;
     line-height: 50px;
     text-align: right;
@@ -123,6 +115,7 @@ footer {
 
 footer a {
     color: #000;
-    font-size: 10pt;
+    font-size: 1.7rem;
     font-style: italic;
+    text-decoration: none;
 }
